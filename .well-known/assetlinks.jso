@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.juanchs.proyectorbiblico",
+        "sha256_cert_fingerprints": ["F5:CE:0C:B3:CF:27:75:A8:56:19:E6:DE:70:2F:4D:B1:37:0D:BC:74:5D:1E:64:A7:B4:F3:B5:E6:8A:0F:67:B3"]
+      }
+    }]
