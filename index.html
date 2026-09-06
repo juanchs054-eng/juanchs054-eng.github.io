@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proyector Bíblico RV — Descarga</title>
+<style>
+  :root {
+    --bg: #0d0f14;
+    --card: #171a21;
+    --accent: #d4a017;
+    --accent2: #2f6fed;
+    --text: #f2f2f2;
+    --muted: #9aa0aa;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    background: radial-gradient(circle at top, #1a1e28 0%, var(--bg) 60%);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 32px 16px 64px;
+  }
+  .container {
+    max-width: 480px;
+    width: 100%;
+    text-align: center;
+  }
+  .icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 26px;
+    background: #0a0a0a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    box-shadow: 0 8px 24px rgba(212, 160, 23, 0.25);
+    overflow: hidden;
+  }
+  .icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  h1 {
+    font-size: 1.7rem;
+    margin: 0 0 4px;
+  }
+  .subtitle {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin-bottom: 28px;
+  }
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 16px;
+    border-radius: 14px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    text-decoration: none;
+    margin-bottom: 14px;
+    transition: transform 0.15s ease;
+  }
+  .btn:active { transform: scale(0.98); }
+  .btn-primary {
+    background: linear-gradient(135deg, #34a853, #227a3d);
+    color: white;
+  }
+  .btn-secondary {
+    background: var(--accent2);
+    color: white;
+  }
+  .btn-outline {
+    background: transparent;
+    border: 1.5px solid #333a47;
+    color: var(--text);
+  }
+  .note {
+    font-size: 0.82rem;
+    color: var(--muted);
+    margin: 18px 0 30px;
+    line-height: 1.5;
+  }
+  .features {
+    text-align: left;
+    background: var(--card);
+    border-radius: 16px;
+    padding: 20px 22px;
+    margin-bottom: 28px;
+  }
+  .features h2 {
+    font-size: 1rem;
+    margin: 0 0 12px;
+    color: var(--accent);
+  }
+  .features ul {
+    margin: 0;
+    padding-left: 18px;
+    color: #d6d9de;
+    font-size: 0.92rem;
+    line-height: 1.9;
+  }
+  footer {
+    font-size: 0.78rem;
+    color: #5c636e;
+    margin-top: 10px;
+  }
+  footer a { color: #7d8894; }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="icon"><img src="icon.jpg" alt="Proyector Bíblico RV"></div>
+    <h1>Proyector Bíblico RV</h1>
+    <div class="subtitle">Reina Valera 1909 y 1960 — funciona sin conexión</div>
+
+    <a class="btn btn-primary" href="proyector-rv.apk" download>
+      ⬇️ Descargar APK (Android)
+    </a>
+
+    <a class="btn btn-secondary" href="https://juanchs054-eng.github.io/Proyector-biblico/" target="_blank">
+      🌐 Abrir la app web (instalar desde el navegador)
+    </a>
+
+    <a class="btn btn-outline" href="privacidad.html">
+      Política de privacidad
+    </a>
+
+    <p class="note">
+      Al instalar el APK, tu teléfono puede advertirte porque no viene de Google Play.
+      Toca "Instalar de todas formas" — la app es segura y no requiere permisos especiales.
+    </p>
+
+    <div class="features">
+      <h2>Qué incluye</h2>
+      <ul>
+        <li>Texto completo Reina Valera 1909 y 1960</li>
+        <li>Búsqueda por palabra o frase</li>
+        <li>Favoritos guardados</li>
+        <li>Modo de proyección a pantalla completa</li>
+        <li>100% offline, sin anuncios</li>
+      </ul>
+    </div>
+
+    <footer>
+      Proyector Bíblico RV · <a href="https://github.com/juanchs054-eng/Proyector-biblico" target="_blank">Código en GitHub</a>
+    </footer>
+  </div>
+</body>
+</html>
