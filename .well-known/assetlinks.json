@@ -1,8 +1,18 @@
-[{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "com.juanchs.proyectorbiblico",
-        "sha256_cert_fingerprints": ["F5:CE:0C:B3:CF:27:75:A8:56:19:E6:DE:70:2F:4D:B1:37:0D:BC:74:5D:1E:64:A7:B4:F3:B5:E6:8A:0F:67:B3"]
-      }
-    }]
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.juanchs.proyectorbiblico",
+      "sha256_cert_fingerprints": ["F5:CE:0C:B3:CF:27:75:A8:56:19:E6:DE:70:2F:4D:B1:37:0D:BC:74:5D:1E:64:A7:B4:F3:B5:E6:8A:0F:67:B3"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.juanchs.proyectorbiblico1960",
+      "sha256_cert_fingerprints": ["C4:55:1B:74:62:79:31:78:54:D8:EA:CC:49:AC:0F:D1:5F:F1:06:9F:14:7E:37:8B:CC:C2:F6:16:C7:61:86:04"]
+    }
+  }
+]
