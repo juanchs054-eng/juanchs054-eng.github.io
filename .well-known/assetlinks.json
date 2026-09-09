@@ -14,5 +14,13 @@
       "package_name": "com.juanchs.proyectorbiblico1960",
       "sha256_cert_fingerprints": ["0D:A5:99:C5:DB:63:CC:A9:3B:BC:F6:AC:9E:67:50:CE:8C:2B:6D:24:F8:E9:AE:20:62:6D:F7:C5:ED:85:38:AE"]
     }
+  },
+{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.juanchs.proyectorbiblicovariasversiones",
+      "sha256_cert_fingerprints": ["E7:1D:CD:D9:C0:5B:7B:D5:E4:D5:F5:1C:3E:88:ED:ED:F9:01:B8:09:4A:CC:40:78:56:42:F1:CF:67:0C:AA:BA"]
+    }
   }
 ]
