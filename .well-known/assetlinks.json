@@ -4,7 +4,7 @@
     "target": {
       "namespace": "android_app",
       "package_name": "com.juanchs.proyectorbiblico",
-      "sha256_cert_fingerprints": ["DD:4E:0C:AF:4B:2A:A0:07:5D:94:49:F8:16:D5:EB:29:32:D9:38:CC:67:DA:9F:C2:CF:E1:52:5B:87:54:9B:73"]
+      "sha256_cert_fingerprints": ["91:44:3C:AC:14:40:E0:11:C0:6D:F4:3C:C3:5A:31:75:E7:CE:5A:B8:73:76:86:59:F3:3E:E7:40:AF:2E:17:65"]
     }
   },
   {
